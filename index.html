@@ -16,27 +16,31 @@
 					src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/635b95cfdbc1e264b35486ad_Symbols.svg"
 					alt
 			/></a>
-			<ul class="nav-items">
-				<li class="nav-dropdown">Product</li>
-				<li class="nav-dropdown">Industries</li>
-				<li><a href="/">Templates</a></li>
-				<li><a href="/">Pricing</a></li>
-				<li><a href="/">Reviews</a></li>
-				<li><a href="/">Log in</a></li>
-				<li><button class="button">Start free</button></li>
-			</ul>
+			<div class="nav-items">
+				<ul class="nav-sub-items">
+					<li class="nav-dropdown">Product</li>
+					<li class="nav-dropdown">Industries</li>
+					<li><a href="/">Templates</a></li>
+					<li><a href="/">Pricing</a></li>
+					<li><a href="/">Reviews</a></li>
+				</ul>
+				<div class="nav-sub-items">
+					<div><a href="/">Log in</a></div>
+					<div><button class="button">Start free</button></div>
+				</div>
+			</div>
+			<!-- <div class="separator"></div> -->
 		</nav>
-		<div class="separator"></div>
 		<section class="plans-section">
 			<h1>Pick the best plan for your business</h1>
 			<div class="plan-intervals">
-				<span id="monthly">Monthly</span>
-				<span class="chosen-interval">
-					<span id="yearly">
+				<div id="monthly">Monthly</div>
+				<div class="chosen-interval">
+					<div id="yearly">
 						<span>Yearly</span>
-						<span>2 months for free</span>
-					</span>
-				</span>
+						<span class="yearly-subtext">2 months for free</span>
+					</div>
+				</div>
 			</div>
 			<div class="plans">
 				<div class="plan-card">
@@ -66,7 +70,10 @@
 					</ul>
 					<button class="button">Start for free</button>
 				</div>
-				<div class="plan-card plan-best">
+				<div class="plan-card">
+					<div class="plan-best">
+						<p>Best value for money</p>
+					</div>
 					<h4>Professional</h4>
 					<div class="price-part">
 						<span class="dollar-sign">$</span>

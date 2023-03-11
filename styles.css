@@ -74,12 +74,12 @@ p {
 .nav-bar {
 	background-color: #fff;
 	width: 100vw;
-	height: 64px;
+	/* height: 64px; */
 	position: fixed;
 	z-index: 500;
 	top: 0;
 	left: 0;
-	padding: 12px 120px;
+	padding: 12px 184px;
 	display: flex;
 	align-items: center;
 	box-shadow: 5px 0 20px -3px rgba(0, 0, 0, 0.4);

@@ -1,7 +1,7 @@
 body {
 	font-size: 16px;
 	text-align: center;
-  color: #003c2f;
+	color: #003c2f;
 }
 * {
 	font-family: 'Gellix', sans-serif;
@@ -22,15 +22,48 @@ h1 {
 	margin: 0 auto;
 	margin-top: 140px;
 }
+h2 {
+	font-size: 2.75rem;
+}
 h4 {
 	margin: 64px 0 16px;
 	font-size: 2rem;
+}
+h5 {
+	margin: 0;
+	font-size: 1.4rem;
 }
 
 .separator {
 	width: 100%;
 	height: 1px;
 	background-color: #cccccc;
+}
+
+.button {
+	background-color: #22ad01;
+	border: none;
+	color: white;
+	border-radius: 36px;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.button:hover {
+	background-color: #2bb90a;
+}
+
+.link {
+	color: #23ad02;
+	font-weight: 500;
+	text-decoration: underline;
+	text-decoration-color: #22ad02;
+	text-decoration-thickness: 2px;
+	text-underline-offset: 2px;
+}
+
+.link:hover {
+	text-decoration: none;
 }
 
 .nav-bar {
@@ -57,7 +90,11 @@ h4 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-left: 26px;
+	margin-left: 60px;
+}
+
+.nav-items .nav-sub-items:first-child *:hover {
+	color: #5ec245;
 }
 
 .nav-sub-items {
@@ -86,19 +123,6 @@ div.nav-sub-items {
 
 .nav-sub-items div a {
 	color: #16453a;
-}
-
-.button {
-	background-color: #22ad01;
-	border: none;
-	color: white;
-	border-radius: 36px;
-	font-weight: 500;
-	cursor: pointer;
-}
-
-.button:hover {
-	background-color: #2bb90a;
 }
 
 .plan-intervals {
@@ -254,4 +278,38 @@ div.nav-sub-items {
 
 .plan-card .button:last-child {
 	margin: 40px;
+}
+
+.addons-section {
+	width: 1100px;
+	margin: 120px auto;
+}
+
+.addons {
+	display: flex;
+	gap: 35px;
+}
+
+.addons-card {
+	position: relative;
+	border: 1px solid #d3dcd4;
+	border-radius: 25px;
+	height: 350px;
+	padding: 50px 42px;
+	text-align: left;
+}
+
+.addons-card p {
+	color: #708977;
+	font-weight: 500;
+}
+
+.addons-card .price-part {
+	position: absolute;
+	bottom: 25px;
+	right: 40px;
+}
+
+.addons-card .per-month {
+	color: #808080;
 }

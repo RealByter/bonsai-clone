@@ -411,3 +411,88 @@ div.nav-sub-items {
 .decolorize {
 	color: #65816d;
 }
+
+.help-section {
+	display: flex;
+	justify-content: center;
+	gap: 80px;
+	text-align: left;
+	margin-top: 100px;
+	padding: 0 145px;
+}
+
+.help-image-wrapper {
+	position: relative;
+	flex: 1;
+}
+
+.help-image-wrapper > img:first-child {
+	display: inline-block;
+	max-width: 100%;
+}
+
+.leaf {
+	position: absolute;
+	height: auto;
+	width: 250px;
+	top: -25px;
+	right: 20px;
+	display: inline-block;
+	transform: rotate(-3deg);
+}
+
+.help {
+	flex: 0 0 385px;
+}
+
+.help > h4:first-child {
+	margin-top: -15px;
+}
+
+.help h4 {
+	margin-bottom: 20px;
+}
+
+.help .link {
+	font-size: 0.8rem;
+	font-weight: 700;
+	text-underline-offset: 1px;
+}
+
+.help .separator {
+	margin: 40px 0 -25px;
+}
+
+.help p {
+	color: #759898;
+	font-weight: 400;
+}
+
+.help .button {
+	padding: 14px 52.5px;
+	margin-top: 18px;
+}
+
+.cta-section {
+	width: 1100px;
+	margin: 0 auto;
+  padding: 50px 100px;
+	background: no-repeat
+		url('https://assets-global.website-files.com/635ac9564cc3682ce1536786/638f45d98fe0830d8223e439_pattern%20(1)%20(1).png');
+	background-color: #003c2f;
+	border-radius: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cta-section p {
+	font-size: 2.25rem;
+	font-weight: 400;
+	color: #fff;
+	text-align: left;
+}
+
+.cta-section .button {
+	padding: 15px 40px;
+}

@@ -358,10 +358,6 @@ div.nav-sub-items {
 	transform: rotate(180deg);
 }
 
-.ratings-section {
-	margin-bottom: 300px;
-}
-
 .ratings-section h2 {
 	width: 500px;
 	margin: 0 auto 35px;
@@ -382,4 +378,36 @@ div.nav-sub-items {
 
 .ratings img {
 	width: 200px;
+}
+
+.reviews-section {
+	display: inline-block;
+	width: max(105vw, 1400px);
+	margin: 0 auto;
+	overflow: visible;
+	margin-top: 100px;
+}
+
+.reviews {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px 16px;
+	color: #153d2f;
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-left: -12.5%;
+}
+
+.reviews li {
+	background-color: #ecf1ec;
+	border-radius: 10px;
+	padding: 20px 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.decolorize {
+	color: #65816d;
 }

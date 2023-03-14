@@ -475,7 +475,7 @@ div.nav-sub-items {
 
 .cta-section {
 	width: 1100px;
-	margin: 0 auto;
+	margin: 100px auto;
   padding: 50px 100px;
 	background: no-repeat
 		url('https://assets-global.website-files.com/635ac9564cc3682ce1536786/638f45d98fe0830d8223e439_pattern%20(1)%20(1).png');
@@ -487,6 +487,8 @@ div.nav-sub-items {
 }
 
 .cta-section p {
+  position: relative;
+  top: -18px;
 	font-size: 2.25rem;
 	font-weight: 400;
 	color: #fff;
